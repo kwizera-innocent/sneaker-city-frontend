@@ -19,6 +19,7 @@ yarn build
 ```
 yarn lint
 ```
+## Backend-connection
+### backend port
+:8090
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
