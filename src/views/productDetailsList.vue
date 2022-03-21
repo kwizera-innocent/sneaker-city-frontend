@@ -1,6 +1,6 @@
 <template>
   <div class="container is-fluid">
-    <div class="row">
+    <div class="row justify-content-md-center">
       <!-- <div class="col-sm-6"> -->
       <div
         class="tile is-parent col-sm-6 col-lg-3 col"

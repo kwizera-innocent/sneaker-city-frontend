@@ -12,7 +12,7 @@
       <li class="list-group-item">Size: {{ productItem.size }}</li>
       <li class="list-group-item">Quantity: {{ productItem.quantity }}</li>
       <li class="list-group-item">
-        Release date: {{ productItem.releaseDate }}
+        Release date: {{ productItem.product.releaseDate }}
       </li>
     </ul>
     <div class="card-footer">

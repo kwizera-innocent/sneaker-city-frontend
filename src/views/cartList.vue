@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-content-md-center">
-    <div id="cart" class="col-sm-6">
+    <div id="cart" class="col-sm-12 col-lg-6">
       <div class="cart--header has-text-centered">
         <i class="fa fa-2x fa-shopping-cart"></i>
       </div>

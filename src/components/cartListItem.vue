@@ -1,11 +1,12 @@
 <template>
   <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold">{{ cartItem.productSize.product.model }}</div>
+    <div class="h6 ms-2 me-auto">
+      <div class="h6 fw-bold">{{ cartItem.productSize.product.model }}</div>
       {{ cartItem.productSize.product.brandName }}
     </div>
+    <small class="text-muted me-auto">purchased at: {{ cartItem.purchaseDate }}</small>
     <span class="badge bg-primary rounded-pill"
-      >${{ cartItem.productSize.product.price }} X {{ cartItem.quantity }}</span
+      >Rwf {{ cartItem.productSize.product.price }} X {{ cartItem.quantity }}</span
     >
   </li>
 </template>
